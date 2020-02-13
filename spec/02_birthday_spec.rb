@@ -16,7 +16,7 @@ end
 ## BONUS ##
 ## Change "xit" to "it" in the test block to enabl
 def age_appropriate_birthday(birthday_kids) 
-  birthday_kids.each do |name,age|
+  birthday_kids.each do |age,name|
     if age <= 12
        puts "Happy Birthday #{name}! You are now #{age} years old!"
        else
